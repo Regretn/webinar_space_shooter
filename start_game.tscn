@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://ynu60necxuy"]
+
+[ext_resource type="Script" path="res://start_game.gd" id="1_v1k7i"]
+
+[node name="start_game" type="Node"]
+script = ExtResource("1_v1k7i")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 364.0
+offset_bottom = 176.0
+color = Color(0.258824, 0.258824, 0.258824, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 132.0
+offset_top = 66.0
+offset_right = 219.0
+offset_bottom = 92.0
+text = "Space Ship"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 101.0
+offset_top = 110.0
+offset_right = 292.0
+offset_bottom = 136.0
+text = "Press Enter to play"
+metadata/_edit_use_anchors_ = true

@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://b20vqppm4iy3l"]
+
+[ext_resource type="Script" path="res://game_over.gd" id="1_eqa8u"]
+
+[node name="GameOver" type="Node"]
+script = ExtResource("1_eqa8u")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 364.0
+offset_bottom = 176.0
+color = Color(0.258824, 0.258824, 0.258824, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 132.0
+offset_top = 66.0
+offset_right = 219.0
+offset_bottom = 92.0
+text = "Game Over"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 87.0
+offset_top = 110.0
+offset_right = 278.0
+offset_bottom = 136.0
+text = "Press Enter to play again"
+metadata/_edit_use_anchors_ = true
